@@ -9,12 +9,12 @@
       </h1>
     </div>
     <div>
-      <h1 class="lg:text-5xl lg:leading-normal md:text-4xl py-1 text-3xl font-bold leading-normal text-white">
+      <h1 class="lg:text-5xl lg:leading-normal md:text-4xl py-1 text-2xl font-bold leading-normal text-white">
         a <span class="text-indigo-500 mr-5">self-taught</span>developer
       </h1>
     </div>
     <div>
-      <h1 class="lg:text-5xl lg:leading-normal md:text-4xl py-1 text-3xl font-bold leading-normal text-white">
+      <h1 class="lg:text-5xl lg:leading-normal md:text-4xl py-1 text-2xl font-bold leading-normal text-white">
         &amp; self motivator.
       </h1>
     </div>
@@ -42,3 +42,4 @@ export default {};
     height: 108.88vh;
 }
 </style>
+

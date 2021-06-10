@@ -69,7 +69,8 @@
                   id="textarea"
                   v-model="message"
                   maxlength="142"
-                  class="focus:outline-none h-32 py-3 my-3 text-white px-4 border-l-4 border-indigo-600 bg-gray-900"
+                  class="focus:outline-none h-32 py-3 my-3 text-white px-4 bg-gray-900"
+                  :class="message.length <= 10 && message.length >= 1 ? 'border-l-4 border-red-600': 'border-l-4 border-indigo-600' "
                   @keyup="remaincharCount()"
                 > </textarea>
               </label>
@@ -128,3 +129,4 @@ export default {
 <style scoped>
 
 </style>
+
